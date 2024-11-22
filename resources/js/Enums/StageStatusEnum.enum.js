@@ -1,0 +1,22 @@
+export const StageStatusEnum = {
+    CHECK_VERIFICATION_BY_CLINICAL_DIRECTOR: "verification-by-clinical-director",
+    CHECK_VERIFICATION_BY_CLINICAL_SPECIALIST: "verification-by-clinical-specialist",
+    CHECK_VERIFICATION_BY_DOCTOR: "verification-by-doctor",
+    COMPLETED: "completed",
+    DELIVERED: "delivered",
+    DELIVERY: "delivery",
+    DELIVERY_PREPARATION: "delivery-preparation",
+    DRAFT: "draft",
+    MODELING: "modeling",
+    TREATMENT: "treatment",
+    PAYMENT_AWAITING: "payment-awaiting",
+    PAYMENT_BILL: "payment-bill",
+    PAYMENT_BILL_AFTER_REJECTION: "payment-bill-after-rejection",
+    PREPARATION: "preparation",
+    PRODUCTION_CONTROL: "production-control",
+    PRODUCTION_OPTIONS: "production-options",
+    PRODUCTION_PACKAGING: "production-packaging",
+    PRODUCTION_PREPARATION: "production-preparation",
+    PRODUCTION_RELEASE: "production-release",
+    VERIFICATION: "verification"
+};
